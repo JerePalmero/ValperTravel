@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { CartContext } from '../../context/CartContext'
 
 const CartWidget = () => {
-    const { getQuantity, totalQuantity } = useContext(CartContext)
+    const { totalQuantity } = useContext(CartContext)
 
     // const quantity = getQuantity()
   
